@@ -1,0 +1,131 @@
+{
+  "restaurants": [
+    {
+      "restaurant_id": "rest_001",
+      "name": "Mints & Honey",
+      "city": "Amsterdam",
+      "timezone": "Europe/Amsterdam"
+    }
+  ],
+  "sales": [
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-10",
+      "service": "dinner",
+      "revenue_eur": 12480.00,
+      "orders": 214,
+      "covers": 268,
+      "average_check_eur": 46.57
+    },
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-17",
+      "service": "dinner",
+      "revenue_eur": 10190.00,
+      "orders": 176,
+      "covers": 249,
+      "average_check_eur": 40.92
+    }
+  ],
+  "reservations": [
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-10",
+      "service": "dinner",
+      "bookings": 96,
+      "reserved_covers": 238,
+      "cancellations": 7,
+      "no_shows": 4,
+      "walk_in_covers": 30
+    },
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-17",
+      "service": "dinner",
+      "bookings": 94,
+      "reserved_covers": 232,
+      "cancellations": 8,
+      "no_shows": 5,
+      "walk_in_covers": 22
+    }
+  ],
+  "staffing": [
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-10",
+      "service": "dinner",
+      "scheduled_staff": 15,
+      "actual_staff": 15,
+      "roles": {
+        "kitchen": 6,
+        "front_of_house": 7,
+        "bar": 2
+      },
+      "notes": []
+    },
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-17",
+      "service": "dinner",
+      "scheduled_staff": 15,
+      "actual_staff": 12,
+      "roles": {
+        "kitchen": 4,
+        "front_of_house": 6,
+        "bar": 2
+      },
+      "notes": [
+        "Two kitchen staff called in sick before service.",
+        "One front-of-house shift was not covered."
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-10",
+      "service": "dinner",
+      "stockouts": [],
+      "waste_eur": 145.00
+    },
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-17",
+      "service": "dinner",
+      "stockouts": [
+        {
+          "item": "grilled salmon",
+          "time": "19:10",
+          "estimated_missed_orders": 18
+        }
+      ],
+      "waste_eur": 232.00
+    }
+  ],
+  "reviews": [
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-10",
+      "service": "dinner",
+      "rating": 5,
+      "text": "Busy night but service was smooth and the food arrived quickly.",
+      "tags": ["service", "speed"]
+    },
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-17",
+      "service": "dinner",
+      "rating": 2,
+      "text": "We waited a long time between courses and our first choice was sold out.",
+      "tags": ["wait_time", "stockout"]
+    },
+    {
+      "restaurant_id": "rest_001",
+      "date": "2026-09-17",
+      "service": "dinner",
+      "rating": 3,
+      "text": "Staff were friendly, but the kitchen seemed overwhelmed and dinner took much longer than usual.",
+      "tags": ["wait_time", "kitchen"]
+    }
+  ]
+}
